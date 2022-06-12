@@ -1,0 +1,22 @@
+@import 'fonts';
+
+body{
+    background-color: black;
+    span {
+        font-family: CormorantUpright;
+        color: rgb(163, 22, 22);
+        font-size: 20px;
+    }
+    background:url('@img/qanew.png') 0 0 no-repeat;
+}
+
+@media (max-width: 786px) {
+    span {
+        font-size: 20px;
+    }
+}
+@media (max-width: 786px) {
+    body {
+        color: aqua;
+    }
+}
